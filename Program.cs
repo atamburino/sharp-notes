@@ -9,7 +9,7 @@ namespace SharpNotes
         static async Task Main(string[] args)
         {
             Console.WriteLine("Welcome to SharpNotes - Your C# Learning Notebook!");
-            Console.WriteLine("Date: April 1st, 2025");
+            Console.WriteLine("Date: April 3rd, 2025");
             Console.WriteLine("----------------------------------------");
             
             // Run collections example
@@ -20,6 +20,9 @@ namespace SharpNotes
             
             // Run file operations example
             FileOperations.RunExamples();
+            
+            // Run OOP example
+            OOPExample.RunExamples();
             
             Console.WriteLine("\nPress any key to exit...");
             Console.ReadKey();
